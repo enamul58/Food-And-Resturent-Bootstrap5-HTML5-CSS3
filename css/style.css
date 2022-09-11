@@ -179,3 +179,38 @@ p {
      Header Design
 ===========================
 */
+
+.navigation-wrap {
+  position: fixed;
+  width: 100%;
+  left: 0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz--transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+  z-index: 1000;
+}
+
+.navigation-wrap .nav-item {
+  padding: 0 0.625rem;
+  transition: all 200ms linear;
+}
+
+.navbar-toggler:focus {
+  outline: unset;
+  border: unset;
+  box-shadow: none;
+}
+
+.nav-link {
+  font-size: 0.9375rem;
+  font-weight: 600;
+  color: var(--primary-color);
+  text-transform: capitalize;
+  letter-spacing: 1px;
+}
+
+.navigation-wrap .main-btn {
+  padding: 0.3125rem 1.4375rem;
+  box-shadow: none;
+  margin-left: 0.625rem;
+}
