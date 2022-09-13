@@ -228,7 +228,7 @@ p {
 
 /* 
 =====================
-  top Banner Section  
+    Top Banner Section  
 =====================
 */
 
@@ -237,4 +237,20 @@ p {
   background: url(../assets/bg/bg-1.jpg) no-repeat center;
   background-size: cover;
   padding: 16.875rem 0 9.375rem;
+}
+
+/* 
+==========================
+    Counter Design Section  
+==========================
+*/
+
+.counter-section {
+  background-color: var(--primary-color);
+  padding: 2.5rem 0;
+}
+
+.counter-section p {
+  color: var(--white-color);
+  text-transform: capitalize;
 }
