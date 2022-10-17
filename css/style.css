@@ -180,6 +180,10 @@ p {
 ===========================
 */
 
+.navbar {
+  padding: 0;
+}
+
 .navigation-wrap {
   position: fixed;
   width: 100%;
@@ -188,6 +192,10 @@ p {
   -moz--transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
   z-index: 1000;
+}
+
+.navbar-brand {
+  padding: 0;
 }
 
 .navigation-wrap .nav-item {
@@ -222,7 +230,7 @@ p {
   left: 0;
   width: 100%;
   background-color: var(--white-color);
-  box-shadow: 0 0.125rem 1.75rem 0 rgb(0 0 0 /0.9);
+  box-shadow: 0 0.125rem 1.75rem 0 rgb(0 0 0 /0.09);
   transition: all 0.15s ease-in-out 0s;
 }
 
